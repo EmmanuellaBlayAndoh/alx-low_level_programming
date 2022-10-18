@@ -2,6 +2,7 @@
 
 /**
  * _islower - prints lowercase
+ * @c: single letter input
  *
  * Return: 1 f int c i lowercase or 0 otherwise
  */
