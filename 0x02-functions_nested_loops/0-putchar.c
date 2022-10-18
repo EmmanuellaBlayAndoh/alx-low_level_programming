@@ -1,12 +1,20 @@
-#include <stdio>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints putchar
- * Return: Always 0
+ * main -prints _putchar
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char *func = "_putchar";
+
+	while (*func)
+	{
+		_putchar(*func);
+		func++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
