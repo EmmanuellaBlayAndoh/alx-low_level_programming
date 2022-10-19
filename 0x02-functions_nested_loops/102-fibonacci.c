@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, first = 0, second = 1, next;
+	int i, first = 1, second = 2, next;
 
 	for (i = 0; i <= 50; i++)
 	{
@@ -15,8 +15,8 @@ int main(void)
 			next = i;
 		else
 		{
-			first = second;
 			next = first + second;
+			first = second;
 			second = next;
 		}
 		printf("%d", next);
