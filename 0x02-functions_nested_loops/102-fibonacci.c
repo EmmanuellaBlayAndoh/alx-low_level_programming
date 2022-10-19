@@ -20,6 +20,8 @@ int main(void)
 			second = next;
 		}
 		printf("%d", next);
+		if (i != 50)
+			printf(", ");
 	}
 
 	return (0);
