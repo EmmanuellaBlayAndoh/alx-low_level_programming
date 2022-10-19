@@ -15,6 +15,7 @@ int main(void)
 			next = i;
 		else
 		{
+			first = second;
 			next = first + second;
 			second = next;
 		}
