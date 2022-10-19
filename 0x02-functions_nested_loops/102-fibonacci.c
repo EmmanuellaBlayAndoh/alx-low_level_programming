@@ -19,7 +19,7 @@ int main(void)
 			first = second;
 			second = next;
 		}
-		printf("%d\n", next);
+		printf("%d", next);
 	}
 
 	return (0);
