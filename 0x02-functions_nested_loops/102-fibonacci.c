@@ -9,7 +9,7 @@ int main(void)
 {
 	int i, first = 1, second = 2, next;
 
-	for (i = 0; i <= 50; i++)
+	for (i = 1; i <= 50; i++)
 	{
 		if (i <= 1)
 			next = i;
