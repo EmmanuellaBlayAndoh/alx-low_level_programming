@@ -16,6 +16,7 @@ int main(void)
 		else
 		{
 			next = first + second;
+			second = next;
 		}
 		printf("%d", next);
 		if (i != 50)
